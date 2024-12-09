@@ -2100,7 +2100,7 @@ abstract class Skin extends ContextSource {
 			}
 		}
 		foreach ( [ 'contributions', 'log', 'blockip', 'changeblockip', 'unblockip',
-			'emailuser', 'mute', 'userrights', 'upload', 'specialpages' ] as $special
+			'emailuser', 'mute', 'userrights', 'upload',] as $special
 		) {
 			if ( $navUrls[$special] ?? null ) {
 				$toolbox[$special] = $navUrls[$special];

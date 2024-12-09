@@ -54,7 +54,8 @@ mw.hook( 'wikipage.content' ).add( ( $content ) => {
 } );
 
 // Add toolbox portlet to toggle all collapsibles if there are any
-require( './toggleAllCollapsibles.js' );
+require('./toggleAllCollapsibles.js');
+require('./navBar.js')
 
 // Handle elements outside the wikipage content
 $( () => {
